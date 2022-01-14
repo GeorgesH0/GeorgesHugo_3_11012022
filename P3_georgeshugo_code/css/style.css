@@ -1,0 +1,55 @@
+@media only screen and (min-width: 320px){
+    #bloc_page{
+        width: auto;
+    }
+    .logo{
+        text-align: center;
+    }
+    .logo img{
+        width: 40%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    section img{
+        width: 100%;
+    }
+    .localisation{
+        background-color: #dcdcdc;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    .localisation i{
+        padding-top: 5%;
+    }
+    .localisation h3{
+        color: #303030;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .info{
+        background-color: #efefef;
+        padding-top: 1%;
+        text-align: center;
+    }
+    .info h2{
+        font-size: 2em;
+        margin: 10%;
+        margin-bottom: 0%;
+    }
+    .info p{
+        font-size: 1.25em;
+        margin-top: 2%;
+    }
+    .info input{
+        margin-bottom: 15%;
+        margin-top: 4%;
+        padding: 4.5%;
+        font-size: 1.20em;
+        color: white;
+        background-color: #9356DC;
+        border-radius: 30px;
+        border: none;
+    }
+}
