@@ -1,6 +1,30 @@
 @media only screen and (min-width: 320px){
+    @font-face {
+        font-family: 'robotothin';
+        src: url('police/Roboto-Thin-webfont.eot');
+        src: url('police/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+             url('police/Roboto-Thin-webfont.woff') format('woff'),
+             url('police/Roboto-Thin-webfont.ttf') format('truetype'),
+             url('police/Roboto-Thin-webfont.svg#robotothin') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    
+    }
+    @font-face {
+        font-family: 'shrikhandregular';
+        src: url('police/shrikhand-regular-webfont.eot');
+        src: url('police/shrikhand-regular-webfont.eot?#iefix') format('embedded-opentype'),
+             url('police/shrikhand-regular-webfont.woff2') format('woff2'),
+             url('police/shrikhand-regular-webfont.woff') format('woff'),
+             url('police/shrikhand-regular-webfont.ttf') format('truetype'),
+             url('police/shrikhand-regular-webfont.svg#shrikhandregular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    
+    }
     #bloc_page{
         width: auto;
+        font-family: "robotothin", Arial, Helvetica, sans-serif;
     }
     .logo{
         text-align: center;
@@ -51,5 +75,92 @@
         background-color: #9356DC;
         border-radius: 30px;
         border: none;
+    }
+    section h2{
+        margin-left: 5%;
+    }
+    ol {counter-reset: choix;
+    }
+    li {
+	list-style-type: none;
+	counter-increment: choix;
+    }
+    li:before {
+	content: counter(choix);
+	background: #9356DC;
+	border-radius: 50%;
+	color: white;		
+    }
+    .main{
+        background-color: #efefef;
+        padding-bottom: 15%;
+    }
+    .main h2{
+        padding-top: 15%;
+    }
+    .main article{
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+    .contenant{
+        position: relative;
+    }
+    .nouveau{
+        position: absolute;
+        top: 7%;
+        background-color: #99E2D0;
+        padding: 2%;
+        left: 74%;
+        color: darkgreen;
+        padding-right: 3%;
+        padding-left: 3%;
+        border-radius: 2px;
+    }
+    section img{
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .description{
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        margin-top: -1%;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    section p{
+        font-size: 1.20em;
+        margin-left: 5%;
+    }
+    .nom{
+        font-weight: bold;
+    }
+    .heart{
+        margin-right: 8%;
+        margin-top: 8%;
+        font-size: 1.7em;
+        color: gray;
+    }
+    footer{
+        background-color: #303030;
+        padding-bottom: 7%;
+    }
+    footer p{
+        color: white;
+        margin: auto;
+        padding-bottom: 1%;
+        margin-left: 7%;
+    }
+    footer h3{
+        font-family: "shrikhandregular", Arial, Helvetica, sans-serif;
+        color: white;
+        padding-top: 7%;
+        padding-left: 7%;
+        margin: auto;
+        padding-bottom: 5%;
     }
 }
