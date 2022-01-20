@@ -11,6 +11,17 @@
     
     }
     @font-face {
+        font-family: 'robotoregular';
+        src: url('police/Roboto-Regular-webfont.eot');
+        src: url('police/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+             url('police/Roboto-Regular-webfont.woff') format('woff'),
+             url('police/Roboto-Regular-webfont.ttf') format('truetype'),
+             url('police/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    
+    }
+    @font-face {
         font-family: 'shrikhandregular';
         src: url('police/shrikhand-regular-webfont.eot');
         src: url('police/shrikhand-regular-webfont.eot?#iefix') format('embedded-opentype'),
@@ -25,6 +36,9 @@
     #bloc_page{
         width: auto;
         font-family: "robotothin", Arial, Helvetica, sans-serif;
+    }
+    a{
+        text-decoration: none;
     }
     .logo{
         text-align: center;
@@ -51,6 +65,7 @@
         color: #303030;
         margin-left: 5%;
         margin-right: 5%;
+        font-family: "robotoregular", Arial, Helvetica, sans-serif;
     }
     .info{
         background-color: #efefef;
@@ -61,6 +76,7 @@
         font-size: 2em;
         margin: 10%;
         margin-bottom: 0%;
+        font-family: "robotoregular", Arial, Helvetica, sans-serif;
     }
     .info p{
         font-size: 1.25em;
@@ -72,24 +88,53 @@
         padding: 4.5%;
         font-size: 1.20em;
         color: white;
-        background-color: #9356DC;
+        background: linear-gradient(#FF79DA,#9356DC); 
         border-radius: 30px;
         border: none;
+        font-family: "robotoregular", Arial, Helvetica, sans-serif;
     }
     section h2{
         margin-left: 5%;
+        font-family: "robotoregular", Arial, Helvetica, sans-serif;
     }
     ol {counter-reset: choix;
+        padding-left: 10%;
+        width: 80%;
+        margin-bottom: 15%;
+        font-family: "robotoregular", Arial, Helvetica, sans-serif;
     }
     li {
 	list-style-type: none;
 	counter-increment: choix;
+    margin-left: -9%;
     }
     li:before {
 	content: counter(choix);
 	background: #9356DC;
 	border-radius: 50%;
-	color: white;		
+	color: white;
+    padding-left: 2%;
+    padding-top: 0.5%;
+    padding-right: 2%;
+    font-size: 0.95em;
+    margin-left: -2%;
+    }
+    .choix__enfant{
+        background-color: #efefef;
+        padding: 7%;
+        border-radius: 20px;
+        margin-bottom: 6%;
+    }
+    .choix__enfant i{
+        margin-left: 5%;
+        margin-right: 5%;
+        color: #dcdcdc;
+    }
+    .choix__enfant i:hover{
+        color: #9356DC;
+    }
+    .choix__texte{
+        color: black;
     }
     .main{
         background-color: #efefef;
@@ -97,6 +142,7 @@
     }
     .main h2{
         padding-top: 15%;
+        font-family: "robotoregular", Arial, Helvetica, sans-serif;
     }
     .main article{
         width: 90%;
@@ -138,6 +184,7 @@
     }
     .nom{
         font-weight: bold;
+        font-family: "robotoregular", Arial, Helvetica, sans-serif;
     }
     .heart{
         margin-right: 8%;
@@ -148,6 +195,7 @@
     footer{
         background-color: #303030;
         padding-bottom: 7%;
+        font-family: "robotoregular", Arial, Helvetica, sans-serif;
     }
     footer p{
         color: white;
