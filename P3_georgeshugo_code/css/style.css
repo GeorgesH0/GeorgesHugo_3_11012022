@@ -135,6 +135,7 @@
     }
     .choix__texte{
         color: black;
+        font-weight: bold;
     }
     .main{
         background-color: #efefef;
