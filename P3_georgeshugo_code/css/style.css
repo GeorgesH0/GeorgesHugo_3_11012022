@@ -106,7 +106,7 @@
     li {
 	list-style-type: none;
 	counter-increment: choix;
-    margin-left: -9%;
+    margin-bottom: 5%;
     }
     li:before {
 	content: counter(choix);
@@ -117,25 +117,34 @@
     padding-top: 0.5%;
     padding-right: 2%;
     font-size: 0.95em;
-    margin-left: -2%;
+    position: relative;
+    z-index: 1;
     }
-    .choix__enfant{
-        background-color: #efefef;
+    .btn{
+        border: none;
+        border-radius: 15px;
         padding: 7%;
-        border-radius: 20px;
-        margin-bottom: 6%;
+        position: relative;
+        z-index: 0;
+        right: 14px;
+        width: 90%;
+        background-color: #efefef;
     }
-    .choix__enfant i{
+    .btn:active{
+        background-color: rgba(147,86,220,0.1);
+        color: #9356DC;
+    }
+    .btn i{
         margin-left: 5%;
         margin-right: 5%;
         color: #dcdcdc;
-    }
-    .choix__enfant i:hover{
-        color: #9356DC;
+        font-size: 1.25em;
     }
     .choix__texte{
         color: black;
         font-weight: bold;
+        font-size: 1.15em;
+        margin-right: 4%;
     }
     .main{
         background-color: #efefef;
