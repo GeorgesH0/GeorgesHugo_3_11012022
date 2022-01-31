@@ -202,6 +202,10 @@
         font-size: 1.7em;
         color: gray;
     }
+    .heart i{
+        transition: all 1s;
+        transform-origin: 0% bottom;
+    }
     .heart i:active{
         background: -webkit-linear-gradient(#FF79DA,#9356DC);
         -webkit-background-clip: text;
