@@ -202,6 +202,12 @@
         font-size: 1.7em;
         color: gray;
     }
+    .heart i:active{
+        background: -webkit-linear-gradient(#FF79DA,#9356DC);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+    }
     footer{
         background-color: #303030;
         padding-bottom: 7%;
