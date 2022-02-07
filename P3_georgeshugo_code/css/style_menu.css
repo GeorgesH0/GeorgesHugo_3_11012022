@@ -83,6 +83,14 @@
         margin-left: 10%;
         font-size: 1.7em;
         color: gray;
+        transition: all 1s;
+        transform-origin: 0% bottom;
+    }
+    .titre_coeur i:active{
+        background: -webkit-linear-gradient(#FF79DA,#9356DC);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
     }
     section h2{
         font-weight: 300;
