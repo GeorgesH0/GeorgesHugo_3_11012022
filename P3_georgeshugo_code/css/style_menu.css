@@ -120,6 +120,54 @@
         margin-right: 5%;
         margin-top: 11%;
     }
+
+    .entrees{
+        animation: entrees 2000ms both;
+    }
+    @keyframes entrees{
+        0% {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+    .plats{
+        animation: plats 2000ms both;
+        animation-delay: 1000ms;
+    }
+    @keyframes plats{
+        0% {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+    .desserts{
+        animation: desserts 2000ms both;
+        animation-delay: 2000ms;
+    }
+    @keyframes desserts{
+        0% {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
     section input{
         margin-bottom: 15%;
         margin-top: 10%;
