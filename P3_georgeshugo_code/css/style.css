@@ -37,6 +37,10 @@
         width: auto;
         font-family: "robotothin", Arial, Helvetica, sans-serif;
     }
+    a{
+        text-decoration: none;
+        color: black;
+    }
     .chargement{
         position: fixed;
         z-index: 3;
@@ -176,8 +180,10 @@
         margin-right: 4%;
     }
     .main{
+        position: relative;
         background-color: #efefef;
         padding-bottom: 15%;
+        z-index: 2;
     }
     .main h2{
         padding-top: 15%;
@@ -224,6 +230,7 @@
     .nom{
         font-weight: bold;
         font-family: "robotoregular", Arial, Helvetica, sans-serif;
+        white-space: nowrap;
     }
     .heart{
         position: relative;

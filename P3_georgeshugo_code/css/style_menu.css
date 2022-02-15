@@ -37,6 +37,10 @@
         width: auto;
         font-family: "robotothin", Arial, Helvetica, sans-serif;
     }
+    a{
+        color: black;
+        text-decoration: none;
+    }
     .en-tete{
         display: flex;
         justify-content: space-around;
@@ -107,6 +111,7 @@
         margin-left: 5%;
         margin-bottom: 4%;
         border-radius: 20px;
+        cursor: url(hand-pointer-regular.svg), pointer;
     }
     article:active .encoche{
         animation: encoche 1000ms both;
@@ -120,7 +125,6 @@
         }
         100% {
             transform: scaleX(1);
-            display: block;
         }
     }
     article:active .encoche i{
