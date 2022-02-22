@@ -253,3 +253,76 @@
         padding-bottom: 5%;
     }
 }
+@media only screen and (min-width: 768px){
+    .logo{
+        width: 40%;
+    }
+    .nom{
+        font-size: 1.25em;
+    }
+    section h2{
+        width: 8%;
+    }
+    .titre_coeur i{
+        padding-top: 3%;
+        font-size: 2em;
+    }
+    .text{
+        font-size: 1.15em;
+    }
+    .prix{
+        margin-top: 7%;
+        font-size: 1.15em;
+    }
+    .encoche{
+        padding-top: 4%;
+        font-size: 1.5em;
+    }
+    .boutton{
+        margin-left: 30%;
+    }
+    footer h3{
+        padding-top: 6%;
+        font-size: 1.5em;
+    }
+    .footer_p{
+        display: flex;
+    }
+    footer p{
+        font-size: 1.15em;
+        margin-left: 3%;
+    }
+}
+@media only screen and (min-width: 989px){
+    #bloc_page{
+        width: 1280px;
+        margin: auto;
+    }
+    .en-tete i{
+        font-size: 1.5em;
+    }
+    .en-tete img{
+        width: 30%;
+        margin-right: 25%;
+    }
+    h1{
+        font-size: 2em;
+    }
+    section h2{
+        font-size: 1.5em;
+        width: 4%;
+    }
+    article{
+        width: 50%;
+        margin-left: 22%;
+    }
+    .boutton{
+        margin-left: 35%;
+        padding: 4%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    footer p{
+        margin-left: 5%;
+    }
+}
