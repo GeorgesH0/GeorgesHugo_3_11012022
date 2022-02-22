@@ -116,7 +116,6 @@
     article:active .encoche{
         animation: encoche 1000ms both;
         transform-origin: right;
-        display: block;
     }
     @keyframes encoche{
         0% {
@@ -138,10 +137,25 @@
             transform: rotate(360deg);
         }
     }
+    article:active .prix{
+        animation: glissement 1000ms both;
+    }
+    @keyframes glissement{
+        from {
+            left: 60px;
+        }
+        to {
+            left: 0px;
+        }
+    }
+    article:active .text{
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
     .encoche{
-        display: none;
         background-color: #99E2D0;
-        width: 20%;
+        width: 27%;
         text-align: center;
         padding-top: 6%;
         font-size: 1.6em;
@@ -161,15 +175,15 @@
         font-size: 1.15em;
     }
     .text{
+        width: 95%;
         margin-left: 3%;
-        overflow: hidden;
         white-space: nowrap;
-        text-overflow: ellipsis;
     }
     .prix{
         font-family: "robotoregular", Arial, Helvetica, sans-serif;
-        margin-right: 5%;
         margin-top: 11%;
+        position: relative;
+        left: 60px;
     }
 
     .entrees{
@@ -308,6 +322,12 @@
     h1{
         font-size: 2em;
     }
+    .titre_coeur i:hover{
+        background: -webkit-linear-gradient(#FF79DA,#9356DC);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+    }
     section h2{
         font-size: 1.5em;
         width: 4%;
@@ -315,6 +335,16 @@
     article{
         width: 50%;
         margin-left: 22%;
+    }
+    article:hover .encoche{
+        animation: encoche 1000ms both;
+        transform-origin: right;
+    }
+    article:hover .encoche i{
+        animation: rotation 1000ms both;
+    }
+    article:hover .prix{
+        animation: glissement 1000ms both;
     }
     .boutton{
         margin-left: 35%;
