@@ -177,7 +177,6 @@
     .text{
         width: 95%;
         margin-left: 3%;
-        white-space: nowrap;
     }
     .prix{
         font-family: "robotoregular", Arial, Helvetica, sans-serif;
@@ -287,13 +286,27 @@
     .prix{
         margin-top: 7%;
         font-size: 1.15em;
+        left: 100px;
+    }
+    article:active .prix{
+        animation: glissement 1000ms both;
+    }
+    @keyframes glissement{
+        from {
+            left: 100px;
+        }
+        to {
+            left: 0px;
+        }
     }
     .encoche{
         padding-top: 4%;
         font-size: 1.5em;
+        width: 22%;
     }
     .boutton{
         margin-left: 30%;
+        border-radius: 49px;
     }
     footer h3{
         padding-top: 6%;
@@ -348,9 +361,10 @@
     }
     .boutton{
         margin-left: 35%;
-        padding: 4%;
-        padding-right: 10%;
-        padding-left: 10%;
+        padding: 3%;
+        padding-right: 9%;
+        padding-left: 9%;
+        font-size: 1.50em;
     }
     footer p{
         margin-left: 5%;
