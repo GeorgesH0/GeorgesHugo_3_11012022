@@ -386,7 +386,7 @@
         filter: brightness(1.2);
         box-shadow: 1px 10px 10px gray;
     }
-    .choix__enfant{
+    li{
         width: 25%;
     }
     li:before{
