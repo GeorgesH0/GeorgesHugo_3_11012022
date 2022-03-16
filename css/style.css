@@ -281,6 +281,9 @@
         padding-bottom: 2%;
         margin-left: 7%;
     }
+    footer a{
+        color: white;
+    }
     footer h3{
         font-family: "shrikhandregular", Arial, Helvetica, sans-serif;
         color: white;
